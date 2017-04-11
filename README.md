@@ -1,5 +1,5 @@
 # Hex Color Generator 🔵  🔴
-> A Simple Random Hex Color Code Generator.
+> A Random HEX Color Code Generator.
 
 ## [Live Demo](https://iraul.github.io/hex-color-generator/) 👈
 
