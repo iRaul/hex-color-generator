@@ -50,7 +50,9 @@ body {
 body {
 	transition: background .4s ease-in-out;
 }
-.change-color-btn {
+
+.change-color-btn,
+.github-custom-corner {
   transition: color .4s ease-in-out;
 }
 

@@ -2,11 +2,12 @@ $(document).ready(function() {
 
   var btn = $('.change-color-btn');
   var hexColor = $('.hex-color');
+  var githubCorner = $('.github-custom-corner');
 
   var generate = function() {
-    newColour = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+    newColor = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
 
-    if(newColour.length < 7) {
+    if(newColor.length < 7) {
       generate();
     }
   }
@@ -14,8 +15,9 @@ $(document).ready(function() {
   btn.on('click', function() {
       generate();
 
-      $('body').css('background-color', newColour);
-      btn.css('color', newColour);
-      hexColor.text(newColour);
+      $('body').css('background-color', newColor);
+      btn.css('color', newColor);
+      githubCorner.css('color', newColor);
+      hexColor.text(newColor);
   });
 });
