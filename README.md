@@ -1,2 +1,4 @@
-# hex-color-generator
-A Random Hex Color Code Generator. 🔵  🔴  ⚫
+# Hex Color Generator 🔵  🔴  ⚫
+> A Random Hex Color Code Generator.
+
+### [Live Demo 👈](#)
