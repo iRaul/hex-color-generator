@@ -5,8 +5,6 @@
 
 ### Author
 
-**Raul Dronca**
-
 * https://twitter.com/raul_dronca
 * https://github.com/iRaul
 
