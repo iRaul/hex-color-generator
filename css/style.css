@@ -23,10 +23,16 @@ body {
 }
 
 .hex-color {
+  background: transparent;
+  border: none;
+  color: #fff;
 	font-size: 120px;
 	font-weight: 800;
 	letter-spacing: 4px;
+	padding-bottom: 0.5em;
+  text-align: center;
 	text-transform: uppercase;
+  width: 95%;
 }
 
 .change-color-btn {
@@ -45,6 +51,19 @@ body {
 	border: none;
 	outline: none;
 	background: #fff;
+}
+
+.copied {
+  background: #1266ae;
+  color: #fff;
+  display: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
 }
 
 body {
