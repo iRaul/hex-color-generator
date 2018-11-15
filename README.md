@@ -2,7 +2,7 @@
 > A Random HEX Color Code Generator.
 
 ## [Live Demo](https://iraul.github.io/hex-color-generator/) 👈
-![Here's a gif](https://cdn.dribbble.com/users/1165920/screenshots/3427898/apr-11-2017_22-55-44.gif)
+![Website Image](https://preview.ibb.co/gZBvvL/download.png)
 ### Author
 
 * https://twitter.com/raul_dronca
