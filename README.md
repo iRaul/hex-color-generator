@@ -1,4 +1,4 @@
-# Hex Color Generator 🔵  🔴
+# Hex Color Generator 🎨
 > A Random HEX Color Code Generator.
 
 ## [Live Demo](https://iraul.github.io/hex-color-generator/) 👈
