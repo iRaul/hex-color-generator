@@ -16,6 +16,14 @@ $(document).ready(function() {
 
       $('body').css('background-color', newColor);
       btn.css('color', newColor);
-      hexColor.text(newColor);
+      hexColor.val(newColor);
+  });
+
+  hexColor.on('click', function() {
+    $(".copied").fadeIn(1200).fadeOut(1800);
+    $(this).focus();
+    $(this).select();
+    document.execCommand('copy');
+    $(this).blur();
   });
 });
