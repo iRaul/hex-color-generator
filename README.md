@@ -1,7 +1,7 @@
 # Hex Color Generator 🎨
 > A Random HEX Color Code Generator.
 
-## [Live Demo](https://iraul.github.io/hex-color-generator/) 👈
+## [Live Demo](http://hex-color-generator.surge.sh/) 👈
 ![Website Image](https://i.imgur.com/eA6ysBy.png)
 ### Author
 
