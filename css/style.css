@@ -53,19 +53,6 @@ body {
   background: #fff;
 }
 
-.copied {
-  background: #1266ae;
-  color: #fff;
-  display: none;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 100%;
-}
-
 body {
   transition: background .4s ease-in-out;
 }

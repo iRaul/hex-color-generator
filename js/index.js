@@ -1,9 +1,8 @@
-$(document).ready(function() {
+  const btn = document.querySelector('.change-color-btn');
+  const hexColor = document.querySelector('.hex-color');
+  let newColor;
 
-  var btn = $('.change-color-btn');
-  var hexColor = $('.hex-color');
-
-  var generate = function() {
+  const generate = () => {
     newColor = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
 
     if(newColor.length < 7) {
@@ -11,19 +10,10 @@ $(document).ready(function() {
     }
   }
 
-  btn.on('click', function() {
-      generate();
+  btn.addEventListener('click', () => {
+    generate();
 
-      $('body').css('background-color', newColor);
-      btn.css('color', newColor);
-      hexColor.val(newColor);
-  });
-
-  hexColor.on('click', function() {
-    $(".copied").fadeIn(1200).fadeOut(1800);
-    $(this).focus();
-    $(this).select();
-    document.execCommand('copy');
-    $(this).blur();
-  });
-});
+    document.body.style.backgroundColor = newColor;
+    btn.style.color = newColor;
+    hexColor.value = newColor;
+  })
