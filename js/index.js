@@ -1,5 +1,6 @@
   const btn = document.querySelector('.change-color-btn');
   const hexColor = document.querySelector('.hex-color');
+
   let newColor;
 
   const generate = () => {
