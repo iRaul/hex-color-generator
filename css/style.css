@@ -33,7 +33,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 95%;
+  outline: none;
 }
+
+.hex-color::-moz-selection { background: #333; }
+.hex-color::selection { background: #333; }
 
 .change-color-btn {
   font-size: 20px;
