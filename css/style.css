@@ -23,12 +23,12 @@ body {
 }
 
 .hex-color {
+  font-family: 'Work Sans', sans-serif;
   background: transparent;
   border: none;
   color: #fff;
   font-size: 120px;
   font-weight: 800;
-  letter-spacing: 4px;
   padding-bottom: 0.5em;
   text-align: center;
   text-transform: uppercase;
@@ -41,7 +41,7 @@ body {
 
 .change-color-btn {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 400;
   position: relative;
   display: block;
   height: 50px;
@@ -49,12 +49,12 @@ body {
   padding: 0 20px;
   cursor: pointer;
   text-align: center;
-  letter-spacing: 4px;
   text-transform: uppercase;
   color: #3498db;
   border: none;
   outline: none;
   background: #fff;
+  border-radius: 4px;
 }
 
 body {
